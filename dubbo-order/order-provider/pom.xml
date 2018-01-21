@@ -26,6 +26,10 @@
             <groupId>com.softwore.zgd.dubbo.user</groupId>
             <artifactId>user-api</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.softwore.zgd.dubbo.order</groupId>
+            <artifactId>order-api</artifactId>
+        </dependency>
         <!--Spring-->
         <dependency>
             <groupId>org.springframework</groupId>

@@ -12,9 +12,9 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="dubbo-user" target="1.7" />
-      <module name="user-api" target="1.7" />
-      <module name="user-provider" target="1.7" />
+      <module name="dubbo-user" target="1.5" />
+      <module name="user-api" target="1.5" />
+      <module name="user-provider" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

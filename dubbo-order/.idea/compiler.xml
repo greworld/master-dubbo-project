@@ -12,9 +12,9 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="dubbo-order" target="1.7" />
-      <module name="order-api" target="1.7" />
-      <module name="order-provider" target="1.7" />
+      <module name="dubbo-order" target="1.5" />
+      <module name="order-api" target="1.5" />
+      <module name="order-provider" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
