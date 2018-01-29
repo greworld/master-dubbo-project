@@ -25,4 +25,6 @@ Jenkins作为持续集成
 
 数据库使用MySQL和Redis
 
-网页采
+网页采Velocity做静态化
+
+前端采用bootstrap，如果谁前端厉害，可以使用目前比较流行的前端框架
