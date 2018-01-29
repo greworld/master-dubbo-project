@@ -1,6 +1,7 @@
 com\softwore\zgd\dubbo\user\main\Bootstrap.class
 com\softwore\zgd\dubbo\user\service\UserCoreService.class
 com\softwore\zgd\dubbo\user\utils\JwtTokenUtil.class
+com\softwore\zgd\dubbo\user\jms\JmsSender.class
 com\softwore\zgd\dubbo\user\dal\entity\User.class
 com\softwore\zgd\dubbo\user\exception\ExceptionUtil.class
 com\softwore\zgd\dubbo\user\exception\ServiceException.class
