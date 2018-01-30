@@ -37,4 +37,4 @@ CREATE TABLE `user` (
 -- Records of user
 -- ----------------------------
 INSERT INTO `user` VALUES ('1', 'admin', '21232f297a57a5a743894a0e4a801fc3', 'Mic', null, '13073804251', '男', '1', '2017-09-04 16:32:15');
-INSERT INTO `user` VALUES ('19', 'gupao', '8899ae0bd47dbc3de6120b6c68851531', null, null, null, null, '2', '2017-09-27 22:45:19');
+INSERT INTO `user` VALUES ('19', 'greworld', '8899ae0bd47dbc3de6120b6c68851531', null, null, null, null, '2', '2017-09-27 22:45:19');

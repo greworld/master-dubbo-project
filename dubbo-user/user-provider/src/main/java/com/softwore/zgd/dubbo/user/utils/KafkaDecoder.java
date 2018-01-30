@@ -8,7 +8,6 @@ import kafka.serializer.Decoder;
  */
 public class KafkaDecoder implements Decoder<Object>{
 
-    @Override
     public Object fromBytes(byte[] bytes) {
         return null;
     }

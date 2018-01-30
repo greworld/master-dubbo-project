@@ -1,0 +1,6 @@
+com\softwore\zgd\activity\draw\bean\ActivityTurntableDrawReq.class
+com\softwore\zgd\activity\common\ResultResp.class
+com\softwore\zgd\activity\draw\ActivityTurntableDrawService.class
+com\softwore\zgd\activity\common\ReturnCodeEnum.class
+com\softwore\zgd\activity\draw\bean\AwardDrawRecordBean.class
+com\softwore\zgd\activity\App.class

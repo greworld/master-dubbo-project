@@ -1,9 +1,11 @@
 D:\work_idea\my-project-master\dubbo-user\user-provider\src\main\java\com\softwore\zgd\dubbo\user\dal\entity\User.java
 D:\work_idea\my-project-master\dubbo-user\user-provider\src\main\java\com\softwore\zgd\dubbo\user\utils\JwtConstants.java
+D:\work_idea\my-project-master\dubbo-user\user-provider\src\main\java\com\softwore\zgd\dubbo\user\jms\RegisterQueueMessageListener.java
 D:\work_idea\my-project-master\dubbo-user\user-provider\src\main\java\com\softwore\zgd\dubbo\user\utils\JwtTokenUtil.java
 D:\work_idea\my-project-master\dubbo-user\user-provider\src\main\java\com\softwore\zgd\dubbo\user\dal\persistence\UserMapper.java
 D:\work_idea\my-project-master\dubbo-user\user-provider\src\main\java\com\softwore\zgd\dubbo\user\service\UserQueryService.java
 D:\work_idea\my-project-master\dubbo-user\user-provider\src\main\java\com\softwore\zgd\dubbo\user\utils\JwtInfo.java
+D:\work_idea\my-project-master\dubbo-user\user-provider\src\main\java\com\softwore\zgd\dubbo\user\jms\SpringJmsSender.java
 D:\work_idea\my-project-master\dubbo-user\user-provider\src\main\java\com\softwore\zgd\dubbo\user\exception\ServiceException.java
 D:\work_idea\my-project-master\dubbo-user\user-provider\src\main\java\com\softwore\zgd\dubbo\user\utils\KafkaDecoder.java
 D:\work_idea\my-project-master\dubbo-user\user-provider\src\main\java\com\softwore\zgd\dubbo\user\exception\ExceptionUtil.java
