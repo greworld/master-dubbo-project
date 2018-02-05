@@ -1,6 +1,5 @@
-D:\work_idea\my-project-master\greworld-activity\activity-api\src\main\java\com\softwore\zgd\activity\common\ReturnCodeEnum.java
-D:\work_idea\my-project-master\greworld-activity\activity-api\src\main\java\com\softwore\zgd\activity\App.java
-D:\work_idea\my-project-master\greworld-activity\activity-api\src\main\java\com\softwore\zgd\activity\draw\bean\ActivityTurntableDrawReq.java
-D:\work_idea\my-project-master\greworld-activity\activity-api\src\main\java\com\softwore\zgd\activity\draw\ActivityTurntableDrawService.java
-D:\work_idea\my-project-master\greworld-activity\activity-api\src\main\java\com\softwore\zgd\activity\common\ResultResp.java
-D:\work_idea\my-project-master\greworld-activity\activity-api\src\main\java\com\softwore\zgd\activity\draw\bean\AwardDrawRecordBean.java
+C:\workspace\dubbo-project\greworld-activity\activity-api\src\main\java\com\softwore\zgd\activity\common\ResultResp.java
+C:\workspace\dubbo-project\greworld-activity\activity-api\src\main\java\com\softwore\zgd\activity\common\ReturnCodeEnum.java
+C:\workspace\dubbo-project\greworld-activity\activity-api\src\main\java\com\softwore\zgd\activity\draw\ActivityTurntableDrawService.java
+C:\workspace\dubbo-project\greworld-activity\activity-api\src\main\java\com\softwore\zgd\activity\draw\bean\AwardDrawRecordBean.java
+C:\workspace\dubbo-project\greworld-activity\activity-api\src\main\java\com\softwore\zgd\activity\draw\bean\ActivityTurntableDrawReq.java
