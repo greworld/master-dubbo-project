@@ -7,7 +7,7 @@ import com.softwore.zgd.activity.draw.ActivityTurntableDrawService;
 import com.softwore.zgd.activity.draw.bean.ActivityTurntableDrawReq;
 import com.softwore.zgd.activity.draw.bean.AwardDrawRecordBean;
 import com.softwore.zgd.activity.service.processor.ActivityTurntableDrawProxy;
-import com.sorfwore.zgd.dubbo.user.IUserQueryService;
+import com.softwore.zgd.dubbo.user.IUserQueryService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

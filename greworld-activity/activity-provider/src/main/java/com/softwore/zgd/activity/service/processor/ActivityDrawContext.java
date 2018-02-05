@@ -3,7 +3,8 @@ package com.softwore.zgd.activity.service.processor;
 import com.softwore.zgd.activity.dal.entitys.ActDrawAward;
 import com.softwore.zgd.activity.dal.entitys.ActDrawAwardItem;
 import com.softwore.zgd.activity.draw.bean.ActivityTurntableDrawReq;
-import com.sorfwore.zgd.dubbo.user.dto.UserQueryResponse;
+import com.softwore.zgd.dubbo.user.dto.UserQueryResponse;
+
 
 /**
  * @author 风骚的GRE

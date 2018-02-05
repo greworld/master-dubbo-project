@@ -1,5 +1,5 @@
 #override("title")
-GREWORLD后台管理平台-首页
+GreWorld后台管理平台-首页
 #end
 #override("breadcrumb")
 <li class="active"><strong>介绍说明</strong></li>
@@ -305,20 +305,21 @@ GREWORLD后台管理平台-首页
 </div>
 #end
 #override("js")
-<script>
-    $("#callNormal").on("click",function(){
-        TOOLS.doGet({},"/index/callWithNormal.shtml",function(msg){
-            swal("提示",msg.message);
-        });
-    });
+ <script>
+     $("#callNormal").on("click",function(){
+         TOOLS.doGet({},"/index/callWithNormal.shtml",function(msg){
+             swal("提示",msg.message);
+         });
+     });
 
-    $("#callLimiter").on("click",function(){
-        TOOLS.doGet({},"/index/callWithLimiter.shtml",function(msg){
-            swal("提示",msg.message);
-        });
-    })
+     $("#callLimiter").on("click",function(){
+         TOOLS.doGet({},"/index/callWithLimiter.shtml",function(msg){
+             swal("提示",msg.message);
+         });
+     })
 
-</script>
+ </script>
 #end
 
 #extends("/common/framework.html")
+

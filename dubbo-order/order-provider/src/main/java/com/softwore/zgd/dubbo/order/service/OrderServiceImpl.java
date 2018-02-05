@@ -14,10 +14,10 @@ import org.springframework.transaction.jta.JtaTransactionManager;
  */
 @Service(value = "orderService")
 public class OrderServiceImpl implements OrderService {
-    @Autowired
-    private JtaTransactionManager springTransactionManager;
-    @Autowired
-    private OrderMapper orderMapper;
+   /* @Autowired
+    private JtaTransactionManager springTransactionManager;*/
+    /*@Autowired
+    private OrderMapper orderMapper;*/
     public DoOrderResponse doOrder(DoOrderRequest request) {
         DoOrderResponse response=new DoOrderResponse();
         response.setCode("000000");

@@ -1,5 +1,5 @@
 #override("title")
-GREWORLD后台管理平台 - 角色管理
+GreWorld后台管理平台 - 角色管理
 #end
 #override("css")
 <!-- dtgrid -->
@@ -181,8 +181,8 @@ GREWORLD后台管理平台 - 角色管理
             {id : 'description',title : '描述',columnClass : 'text-center'},
             {id : 'operation',title : '操作',columnClass : 'text-center',resolution : function(value, record, column, grid, dataNo, columnNo) {
                 return '<button class="btn btn-primary btn-sm" type="button" onclick="authRole.setPermission('+record.id+')"><i class="fa fa-flag"></i>&nbsp;分配权限</button>&nbsp;' +
-                    '<button class="btn btn-info btn-sm" type="button" onclick="authRole.showEditModal('+record.id+','+record.sort+',\''+record.name+'\',\''+record.description+'\')"><i class="fa fa-pencil"></i>&nbsp;编辑</button>&nbsp;'+
-                    '<button class="btn btn-danger btn-sm" type="button" onclick="authRole.deleteRoleById('+record.id+')"><i class="fa fa-trash-o"></i>&nbsp;删除</button>';
+                        '<button class="btn btn-info btn-sm" type="button" onclick="authRole.showEditModal('+record.id+','+record.sort+',\''+record.name+'\',\''+record.description+'\')"><i class="fa fa-pencil"></i>&nbsp;编辑</button>&nbsp;'+
+                        '<button class="btn btn-danger btn-sm" type="button" onclick="authRole.deleteRoleById('+record.id+')"><i class="fa fa-trash-o"></i>&nbsp;删除</button>';
             }}];
         var dtGridOption = {
             lang : 'zh-cn',

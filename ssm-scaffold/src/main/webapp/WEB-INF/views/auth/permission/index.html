@@ -1,5 +1,5 @@
 #override("title")
-GREWORLD后台管理平台 - 权限管理
+GreWorld后台管理平台 - 权限管理
 #end
 #override("css")
 <!-- dtgrid -->
@@ -16,7 +16,7 @@ GREWORLD后台管理平台 - 权限管理
     <div class="ibox-content text-right form-inline" style="background: #F3F3F4;">
         <div class="input-group">
             <input type="text" name="title" id="title" class="form-control" placeholder="请输入资源名称查找">
-            <span class="input-group-btn">
+			<span class="input-group-btn">
 				<button type="button" id="btnSearch" class="btn btn-info">搜索</button>
 			</span>
         </div>
@@ -56,7 +56,7 @@ GREWORLD后台管理平台 - 权限管理
                             <select class="form-control" name="pid">
                                 <option value="0" selected="selected">目录菜单</option>
                                 #foreach($select in $select2List)
-                                <option value="$!{select.id}"><i class="fa fa-list"/>$!{select.text}</option>
+                                    <option value="$!{select.id}"><i class="fa fa-list"/>$!{select.text}</option>
                                 #end
                             </select>
                         </div>
@@ -97,7 +97,7 @@ GREWORLD后台管理平台 - 权限管理
                     <div class="form-group">
                         <label class="col-sm-2 control-label">描述</label>
                         <div class="col-sm-9">
-                            <textarea class="form-control" name="description"></textarea>
+                           <textarea class="form-control" name="description"></textarea>
                         </div>
                     </div>
                 </div>
@@ -288,8 +288,8 @@ GREWORLD后台管理平台 - 权限管理
                     _status_html='<button class="btn btn-warning btn-sm" type="button" onclick="authPermission.changePermissionStatus('+record.id+',1)"><i class="fa fa-ban"></i>&nbsp;禁用</button>';
                 }
                 return _status_html+'&nbsp;' +
-                    '<button class="btn btn-info btn-sm" type="button" onclick="authPermission.showEditModal('+record.id+')"><i class="fa fa-pencil"></i>&nbsp;编辑</button>&nbsp;'+
-                    '<button class="btn btn-danger btn-sm" type="button" onclick="authPermission.deleteRoleById('+record.id+')"><i class="fa fa-trash-o"></i>&nbsp;删除</button>';
+                        '<button class="btn btn-info btn-sm" type="button" onclick="authPermission.showEditModal('+record.id+')"><i class="fa fa-pencil"></i>&nbsp;编辑</button>&nbsp;'+
+                        '<button class="btn btn-danger btn-sm" type="button" onclick="authPermission.deleteRoleById('+record.id+')"><i class="fa fa-trash-o"></i>&nbsp;删除</button>';
             }}];
         var dtGridOption = {
             lang : 'zh-cn',

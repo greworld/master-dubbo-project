@@ -1,5 +1,5 @@
 #override("title")
-GREWORLD后台管理平台 - 用户管理
+GreWorld后台管理平台 - 用户管理
 #end
 #override("css")
 <!-- dtgrid -->
@@ -15,7 +15,7 @@ GREWORLD后台管理平台 - 用户管理
     <div class="ibox-content text-right form-inline" style="background: #F3F3F4;">
         <div class="input-group">
             <input type="text" name="loginname" id="loginname" class="form-control" placeholder="请输入登录名或真实姓名">
-            <span class="input-group-btn">
+			<span class="input-group-btn">
 				<button type="button" id="btnSearch" class="btn btn-info">搜索</button>
 			</span>
         </div>
@@ -205,23 +205,23 @@ GREWORLD后台管理平台 - 用户管理
             {id : 'password',title : '密码',columnClass : 'text-center'},
             {id : 'realname',title : '真实姓名',columnClass : 'text-center'},
             {id : 'status',title : '用户状态',columnClass : 'text-center',resolution : function(value, record, column, grid, dataNo, columnNo) {
-                var _user_status='<span class="label label-sm label-danger arrowed arrowed-righ">禁用</span>';
-                if(value==1){
-                    _user_status='<span class="label label-sm label-primary arrowed arrowed-righ">正常</span>';
+                    var _user_status='<span class="label label-sm label-danger arrowed arrowed-righ">禁用</span>';
+                    if(value==1){
+                        _user_status='<span class="label label-sm label-primary arrowed arrowed-righ">正常</span>';
+                    }
+                    return _user_status;
                 }
-                return _user_status;
-            }
             },
             {id : 'crtime',title : '创建时间',columnClass : 'text-center',format : 'yyyy-MM-dd hh:mm:ss',oformat : 'yyyy-MM-dd hh:mm:ss'},
             {id : 'lasttime',title : '最后登录时间',columnClass : 'text-center',format : 'yyyy-MM-dd hh:mm:ss',oformat : 'yyyy-MM-dd hh:mm:ss'},
             {id : 'operation',title : '操作',columnClass : 'text-center',resolution : function(value, record, column, grid, dataNo, columnNo) {
-                var _status_html='<button class="btn btn-primary btn-sm" type="button" onclick="authUser.changeUserStatus('+record.id+',1)"><i class="fa fa-play-circle"></i>&nbsp;启用</button>';
-                if(record.status==1){
-                    _status_html='<button class="btn btn-warning btn-sm" type="button" onclick="authUser.changeUserStatus('+record.id+',0)"><i class="fa fa-ban"></i>&nbsp;禁用</button>';
-                }
-                return '<button class="btn btn-info btn-sm" type="button" onclick="authUser.showEditModal('+record.id+')"><i class="fa fa-pencil"></i>&nbsp;编辑</button>&nbsp;'
-                    +_status_html+'&nbsp;'+
-                    '<button class="btn btn-danger btn-sm" type="button" onclick="authUser.deleteUserById('+record.id+')"><i class="fa fa-trash-o"></i>&nbsp;删除</button>';
+                    var _status_html='<button class="btn btn-primary btn-sm" type="button" onclick="authUser.changeUserStatus('+record.id+',1)"><i class="fa fa-play-circle"></i>&nbsp;启用</button>';
+                    if(record.status==1){
+                        _status_html='<button class="btn btn-warning btn-sm" type="button" onclick="authUser.changeUserStatus('+record.id+',0)"><i class="fa fa-ban"></i>&nbsp;禁用</button>';
+                    }
+                    return '<button class="btn btn-info btn-sm" type="button" onclick="authUser.showEditModal('+record.id+')"><i class="fa fa-pencil"></i>&nbsp;编辑</button>&nbsp;'
+                            +_status_html+'&nbsp;'+
+                            '<button class="btn btn-danger btn-sm" type="button" onclick="authUser.deleteUserById('+record.id+')"><i class="fa fa-trash-o"></i>&nbsp;删除</button>';
             }}];
         var dtGridOption = {
             lang : 'zh-cn',
@@ -245,8 +245,8 @@ GREWORLD后台管理平台 - 用户管理
         /*******************grid data init end****************************/
 
         /*******************excute save and update operation**************/
-        $("#addAuthUserForm").validate({
-            submitHandler:function(form){
+       $("#addAuthUserForm").validate({
+           submitHandler:function(form){
                 TOOLS.formCommitWithPost(form,"#springUrl('/AuthMng/User/saveAuthUser.shtml')",function(result){
                     if(result.status==0){
                         $('#addAuthUserModel').modal('toggle');
@@ -255,8 +255,8 @@ GREWORLD后台管理平台 - 用户管理
                         swal("提示",result.message);
                     }
                 });
-            }
-        });
+           }
+       });
         $("#editAuthUserForm").validate({
             submitHandler:function(form){
                 TOOLS.formCommitWithPost(form,"#springUrl('/AuthMng/User/editAuthUser.shtml')",function(result){
