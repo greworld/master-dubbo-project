@@ -38,7 +38,7 @@ function cliLogin() {
 	$.ajax({
 		url:"/login.shtml",
 		type:"POST",
-		data:{txtUser:txtUser,txtPwd:$("#Userpwd").val()},
+		data:{txtUser:txtUser,txtPwd:txtPwd},
 		success:function(data){
 			if(data.code=="000000"){
 				location.href="/index.shtml";
