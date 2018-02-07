@@ -1,7 +1,0 @@
-C:\workspace\dubbo-project\dubbo-order\order-provider\src\main\java\com\softwore\zgd\dubbo\order\dal\entity\Order.java
-C:\workspace\dubbo-project\dubbo-order\order-provider\src\main\java\com\softwore\zgd\dubbo\order\jms\JmsReceiver.java
-C:\workspace\dubbo-project\dubbo-order\order-provider\src\main\java\com\softwore\zgd\dubbo\order\service\OrderServiceImpl.java
-C:\workspace\dubbo-project\dubbo-order\order-provider\src\main\java\com\softwore\zgd\dubbo\order\dal\persistence\OrderMapper.java
-C:\workspace\dubbo-project\dubbo-order\order-provider\src\main\java\com\softwore\zgd\dubbo\order\jms\SpringJmsReceiver.java
-C:\workspace\dubbo-project\dubbo-order\order-provider\src\main\java\com\softwore\zgd\dubbo\order\main\Bootstrap.java
-C:\workspace\dubbo-project\dubbo-order\order-provider\src\main\java\com\softwore\zgd\dubbo\order\jms\SpringJmsListener.java
