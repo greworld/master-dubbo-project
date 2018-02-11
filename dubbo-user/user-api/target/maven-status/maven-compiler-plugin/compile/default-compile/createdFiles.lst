@@ -1,0 +1,14 @@
+com\softwore\zgd\dubbo\user\dto\UserLoginRequest.class
+com\softwore\zgd\dubbo\user\dto\UserRegisterResponse.class
+com\softwore\zgd\dubbo\user\constants\Constants.class
+com\softwore\zgd\dubbo\user\dto\UserQueryResponse.class
+com\softwore\zgd\dubbo\user\dto\UserLoginResponse.class
+com\softwore\zgd\dubbo\user\abs\AbstractRequest.class
+com\softwore\zgd\dubbo\user\IUserCoreService.class
+com\softwore\zgd\dubbo\user\dto\UserQueryRequest.class
+com\softwore\zgd\dubbo\user\constants\ResponseCodeEnum.class
+com\softwore\zgd\dubbo\user\dto\UserRegisterRequest.class
+com\softwore\zgd\dubbo\user\dto\CheckAuthRequest.class
+com\softwore\zgd\dubbo\user\abs\AbstractResponse.class
+com\softwore\zgd\dubbo\user\dto\CheckAuthResponse.class
+com\softwore\zgd\dubbo\user\IUserQueryService.class

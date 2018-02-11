@@ -25,36 +25,4 @@ Jenkins作为持续集成
 
 数据库使用MySQL和Redis
 
-网页采用Velocity生成静态化页面
-
-采用ElasticSearch实现搜索服务
-
-负载均衡使用Nginx、keepalived实现高可用
-
-消息中间件采用ActiveMQ
-
-在分布式事务上则采用了TCC解决时效性要求性高的分布式事务
-
-可靠的消息服务则来解决时效性要求低的分布式事务.
-
-
-
-# Dubbo服务
-
-| 项目                |                  运行路径 |  备注  |
-| ----------------- | --------------------: | :--: |
-| dubbo-order       | 通过bootstrap类的main方法运行 | 订单服务 |
-| dubbo-user        | 通过bootstrap类的main方法运行 | 用户中心 |
-| greworld-activity | 通过bootstrap类的main方法运行 | 活动运营 |
-| greworld-item     | 通过bootstrap类的main方法运行 | 商品中心 |
-| greworld-order    | 通过bootstrap类的main方法运行 | 订单中心 |
-| greworld-pay      | 通过bootstrap类的main方法运行 | 支付服务 |
-| greworld-search   | 通过bootstrap类的main方法运行 | 搜索引擎 |
-|                   |                       |      |
-|                   |                       |      |
-
-# web项目
-
-> 前端这块目前就是一个gupao-protal（前端站点） 和 ssm-scaffold （后台管理）
-> 前后端没有分离，所以api层写起来比较尴尬，如果有哪位朋友对前端比较厉害，可以用写一个单独的前端应用
-> 后端体统RESTful接口；
+网页采

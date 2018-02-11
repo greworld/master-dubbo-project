@@ -2,13 +2,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.softwore.zgd.dubbo.search</groupId>
+  <groupId>com.softwore.zgd.dubbo.user.service</groupId>
   <artifactId>dubbo-search</artifactId>
   <version>1.0-SNAPSHOT</version>
   <modules>
     <module>search-api</module>
     <module>search-provider</module>
-    <module>search-client</module>
   </modules>
   <packaging>pom</packaging>
 
@@ -18,24 +17,13 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <spring.version>4.3.10.RELEASE</spring.version>
-    <elasticsearch.version>5.5.1</elasticsearch.version>
   </properties>
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>org.elasticsearch</groupId>
-        <artifactId>elasticsearch</artifactId>
-        <version>${elasticsearch.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.wltea.analyzer</groupId>
-        <artifactId>IKAnalyzer</artifactId>
-        <version>2012_u6</version>
-      </dependency>
-      <dependency>
         <groupId>junit</groupId>
         <artifactId>junit</artifactId>
-        <version>4.12</version>
+        <version>3.8.1</version>
         <scope>test</scope>
       </dependency>
       <dependency>
@@ -83,12 +71,6 @@
         <groupId>org.springframework</groupId>
         <artifactId>spring-tx</artifactId>
         <version>${spring.version}</version>
-      </dependency>
-
-      <dependency>
-        <groupId>org.quartz-scheduler</groupId>
-        <artifactId>quartz</artifactId>
-        <version>1.8.6</version>
       </dependency>
 
       <!--dubbo-->

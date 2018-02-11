@@ -70,7 +70,7 @@ public class ActivityTurntableDrawServiceImpl implements ActivityTurntableDrawSe
     }
 
     public ResultResp<AwardDrawRecordBean> doDraw(ActivityTurntableDrawReq activityTurntableDrawReq) {
-        ResultResp<AwardDrawRecordBean> recordBeanResultResp=new ResultResp<AwardDrawRecordBean>();
+        ResultResp<AwardDrawRecordBean> recordBeanResultResp = new ResultResp<AwardDrawRecordBean>();
         try{
             checkDrawParams(activityTurntableDrawReq);//检查请求参数
 
